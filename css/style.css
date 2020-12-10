@@ -136,21 +136,60 @@ h2 {
     text-align: center;
     font-size: 20px;
     color: #596e79;
-    border: 2px #596e79 solid;
-    box-shadow: 8px 8px 10px rgba(0,0,0,0.4);
+    border: 2px #f0ece2 solid;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
     padding: 30px;
+    
 }
 
 .contactBox {
     text-align: center;
     font-size: 20px;
     color: #596e79;
-    border: 2px #596e79 solid;
-    box-shadow: 8px 8px 10px rgba(0,0,0,0.4);
+    border: 2px #f0ece2 solid;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
     padding: 30px;
     height: fit-content;
     width: fit-content;
 }
+
+#menuMain {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menuInfo {
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    font-size: 20px;
+    color: #596e79;
+    border: 2px #f0ece2 solid;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.menuBox {
+    max-width: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: #596e79;
+    border: 2px #f0ece2 solid;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    padding: 30px;
+    height: fit-content;
+}
+
+#menu-items {
+    text-align: left;
+    border: 2px #596e79 dotted;
+}
+
+.menuImg {
+    max-width: 200px;
+}
+
 
 #openList {
     display: flex;
@@ -161,12 +200,23 @@ ul {
     list-style-type: none;
 }
 
-#small-logo {
+.small-logo {
     max-width: 250px;
 }
 
 h3 {
     font-size: 30px;
+}
+
+#outro {
+    max-width: 30%;
+    text-align: center;
+    font-size: 20px;
+    color: #596e79;
+    border: 2px #f0ece2 solid;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    padding: 30px;
+    height: fit-content;
 }
 
 .footer {
