@@ -219,6 +219,10 @@ h3 {
     height: fit-content;
 }
 
+#telephoneImg {
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+}
+
 .footer {
     grid-area: fo;
     background-color: #596e79;
